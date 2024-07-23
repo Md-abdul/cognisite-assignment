@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 
 const connect = async () => {
   try {
-    const mongoURI = 'mongodb+srv://mdabdulq62:nadim123@cluster0.mjympox.mongodb.net/landcalculation?retryWrites=true&w=majority';
+    const mongoURI = '';
     await mongoose.connect(mongoURI);
     console.log('Connected to MongoDB');
   } catch (error) {
